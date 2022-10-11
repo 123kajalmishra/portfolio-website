@@ -1,0 +1,1450 @@
+body{
+    margin: 0;
+    background: rgb(225, 235, 235);
+    
+}
+/* whole body setup */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* whole page setup */
+body .linkdin {
+   margin-top:1rem;
+   margin-left: 3rem;
+   margin-right: 3rem;
+   align-content: center;
+}
+/* navbar setup */
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    padding: 0 4rem;
+    border: 1px solid black;
+    border: none;
+    height: 60px;
+    border-radius:0.2rem;
+}
+/* navbar left container setup */
+nav > .left-container {
+    
+    margin-left: 15px;
+    display: flex;
+    padding: 1rem;
+   
+}
+/* linkdin left logo setup */
+.linkdin-logo{
+    font-size: 40px;
+    margin-bottom: 2px;
+    
+    
+}
+/* navbar left group1 setup */
+.group1{
+    display: flex;
+    align-content: center;
+    gap: 1rem;
+
+}
+/* navbar right container icons setup */
+.group2{
+    display: flex;
+    gap: 1.5rem;
+    padding: 4px 0px;
+    margin-right: 20px;
+    align-content: center;
+    margin-top: 15px;
+}
+/* navbar right group2 paragraph setup */
+.group2 p{
+    margin-top: 12px;
+}
+/* navbar right group2 ancar setup */
+.group2 a {
+    color:black;
+}
+/* navbar right group2 ancar hovar setup */
+.group2 a:hover {
+    color:rgb(232, 33, 33);
+}
+/* navbar right group2 h6 setup */
+.group2 h6{
+    justify-content: center;
+    gap: 0.5rem;
+}
+/* navbar left container searchbar */
+.search-bar{
+    margin-left:1px;
+    width: 100%;
+    max-width: 700px;
+    height: 40px;
+    align-items: center;
+    background-color: rgb(226, 245, 250);
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 20px;
+    margin-bottom: 2%;
+       
+}
+/* navbar left input setup */
+.search-bar input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    flex: 1;
+    padding: 9px;
+    font-size: 20px;
+    color: rgb(14, 15, 15);
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+}
+/* navbar left button setup */
+.search-bar button{
+    border: none;
+    background-color: rgb(226, 245, 250);
+    font-size: 20px;
+}
+/* navbar left button hover */
+.search-bar button:hover{
+    color: blue;
+}
+/* navbar profile image */
+.me img{
+    border-radius: 50%;
+    width:18px;
+    height:16px;
+    justify-content: center;
+    background: rgb(230, 130, 130);
+    display: flex;
+    color: white;
+    background-image: url("profile image.png");
+    
+}
+
+/*=====NAVBAR ENDED HERE================== */
+
+/* sidebar1 start from here */
+aside .sidebar1{
+    width: 230px;
+    height: 40vh;
+    background-color: #fff;
+    border-radius:0.8rem;
+}
+/* left, mid,right section present in container1 */
+.container1{
+    display: flex;
+    grid-template-columns:20% 60% 20%;
+    gap: 1.4rem;
+    width: 85%;
+    margin: 1.8rem auto;  
+}
+/* sidebar left top image */
+.top img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+/* sidebar left top header5 setup */
+.top h5{
+     margin-left: 28%;
+}
+/* sidebar left ancar  */
+.top a{
+    text-decoration: none;
+    color: black;
+}
+/* sidebar left ancar hover  */
+.top a:hover{
+    color: rgb(85, 85, 94);
+    text-decoration: underline;
+}
+/* sidebar left ancar header */
+.top h6{
+    margin-left: 28%;
+    margin-top: 4%;
+    font-size: 0.7rem;
+    color: gray;
+   
+}
+/* sidebar left ancar background image */
+.top{
+    width: 100%;
+    height:80px;
+    background-image:url("background.jpg");
+}
+/* sidebar1 left view start here */
+aside .sidebar1 .view{
+    background-color: #fff;
+    padding: 14px;
+    margin-top:0rem;
+    cursor: pointer;
+    margin-top: 6rem;
+   font-size: 19px;
+}
+/* sidebar1 left view hover */
+aside .sidebar1 .view:hover{
+    display: flex;
+    flex-direction: column;
+    padding:14px;
+    font-size: 19px;
+    background-color: gainsboro;
+    margin-top: 6rem;
+}
+/* sidebar1 left views start here */
+aside .sidebar1 .view .views{
+    display: flex;
+    justify-content: space-between;
+   
+}
+/* sidebar1 left views h6 */
+.sidebar1 .view .views h6{
+    color: grey;
+}
+/* sidebar1 left views ancar */
+.sidebar1 .view .views a{
+    color: blue;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+/* sidebar1 premium */
+aside .sidebar1 .premium{
+    position: relative;
+    margin-top: 0rem;
+}
+/* sidebar1 premium ancar */
+.sidebar1 .premium a{
+    gap: 0.6rem;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+}
+/* sidebar1 premium  h6*/
+.sidebar1 .premium h6{
+    color: gray;
+    font-weight: 100;
+    margin-left: 1rem;
+    
+}
+/* sidebar1 premium ancar */
+.sidebar1 .premium a{
+     font-size: 15px;
+}
+/* sidebar1 premium ancar hover */
+.sidebar1 .premium a:hover{
+    text-decoration: underline;
+    
+}
+/* sidebar1 premium ancar icon*/
+.sidebar1 .premium a i{
+    color: yellow;
+    
+}
+/* sidebar1 premium  flex box*/
+aside .sidebar1 .premium{
+    background-color: #fff;
+    padding: 14px;
+    margin-top:0rem;
+    cursor: pointer;
+}
+/* sidebar1 premium hover */
+aside .sidebar1 .premium:hover{
+    background-color: gainsboro;
+    padding: 14px;
+    margin-top:0rem;
+    cursor: pointer;
+}
+/* sidebar1 items1 */
+aside .sidebar1 .items .items1{
+    display: flex;
+    margin-left: 50px;
+    padding: 10px;
+}
+/* sidebar1 items1 h6 */
+aside .sidebar1 .items .items1 h6{
+    margin-left: 6px;
+}
+/* sidebar1 items flex box */
+aside .sidebar1 .items{
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #fff;
+}
+/* sidebar1 items hover */
+aside .sidebar1 .items:hover{
+    display: flex;
+    flex-direction: column;
+    padding:14px;
+    font-size: 16px;
+    background-color: gainsboro;
+}
+/* sidebar2 flex box */
+ aside .sidebar2{
+    background: #fff;
+    width: 100%;
+    height:160px;
+    margin-top: 5rem; 
+ 
+}
+/* sidebar2 group ancar */
+aside .sidebar2 .content .group a{
+    margin-left: 1rem;
+    display: flex;
+    text-decoration: none;
+    margin-top: 1rem;
+    position: relative;
+}
+/* sidebar2 group ancar */
+aside .sidebar2 .content .group a:hover{
+    text-decoration: underline;
+}
+/* sidebar2  event ancar */
+aside .sidebar2 .content .event a{
+    margin-top: 1rem;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+/* sidebar2 event hover */
+aside .sidebar2 .content .event a:hover{
+    text-decoration: underline;
+}
+/* sidebar2 event image */
+aside .sidebar2 .content .event img{
+   margin-left: 8rem;
+   background-color: #fff;
+   border-radius: 50%;
+   width: 20px;
+   height: 20px;
+}
+/* sidebar2 image hover */
+aside .sidebar2 .content .event img:hover{
+    background-color: gainsboro;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+}
+/* sidebar2 hash ancar */
+aside .sidebar2 .content .hash a{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+/* sidebar2 hash ancar hover */
+aside .sidebar2 .content .hash a:hover{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    text-decoration: underline;
+}
+/* sidebar2 paragraph */
+aside .sidebar2 .content p{
+   text-align: center;
+   padding: 12px;
+}
+/* sidebar2 paragraph hover */
+aside .sidebar2 .content p:hover{
+    text-align: center;
+    padding: 12px;
+    background-color: gainsboro;
+}
+/* =========sidebar ended here */
+
+
+/* background property of mid1 */
+.mid1{
+    background-color:white;
+    border-radius:0.8rem;
+    margin: 0;
+    padding: 0;
+    height: 140px;
+    width: 500px;
+}
+/* mid1 section image property */
+main .main_section .mid1 .search_bar_img .image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top:13px;
+    margin-left:7px;
+    display: flex;
+    
+}
+/* mid1 section icons property */
+main .main_section .mid1 .icons{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 12px;
+    display: flex;
+    gap: 1rem;
+   
+}
+/* mid1 section icons h6 property */
+main .main_section .mid1 .icons h6{
+    text-align: center;
+}
+/* mid1 section input property */
+main .main_section .mid1 .search input{
+    width: 219%;
+    display: flex;
+    margin-left: 6%;
+    padding: 14px;
+    border-radius: 60px;
+    color: black;
+    margin-top: 15px; 
+}
+/* mid1 section input hover property */
+main .main_section .mid1 .search input:hover{
+    background-color: gainsboro;
+    border-radius: 60px;
+    padding: 14px;
+    margin-top: 15px;
+    display: flex;
+    width: 219%;
+}
+/* mid1 section search_bar property */
+main .main_section .mid1 .search_bar_img{
+    display: flex;
+    margin-top: 0rem;
+}
+/* mid1 section icons pic property */
+main .mid1 .icons .pic{
+    display: flex;
+    margin-left: 5px;
+}
+/* mid1 section icons header6 property */
+main .mid1 .icons .pic h6{
+    margin-left: 1rem;
+}
+/* mid1 section icons flex property */
+main .mid1 .icons .pic{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 90px;
+    height: auto;
+    align-items: center;
+    margin-left: 4px;
+    padding: 12px;
+    cursor: pointer;
+    
+    
+}
+ /* mid1 section pic hover property */
+main .mid1 .icons .pic:hover{
+    background-color: gainsboro;
+    border-radius: 4px;
+    width: 90px;
+    height: auto;
+    align-items: center;
+    margin-left: 4px;
+    padding: 12px;
+    cursor: pointer;
+    
+}
+/* mid1 vedio */
+main .mid1 .icons .video{
+    display: flex;
+}
+/* mid1 vedio  h6*/
+main .mid1 .icons .video h6{
+    margin-left: 1rem;
+}
+/* mid1 vedio flex */
+main .mid1 .icons .video{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 90px;
+    height: auto;
+    align-items: center;
+    margin-left: 4px;
+    padding: 12px;
+    cursor: pointer;
+}
+/* mid1 vedio hover */
+main .mid1 .icons .video:hover{
+    background-color: gainsboro;
+    border-radius: 4px;
+    width: 90px;
+    height: auto;
+    margin-left: 4px;
+    padding: 12px;
+    cursor: pointer;
+}
+/* mid1 event */
+main .mid1 .icons .event{
+    display: flex;
+    font-size: 1rem;
+}
+/* mid1 event h6 */
+main .mid1 .icons .event h6{
+    margin-left: 9px;
+}
+/* mid1 event  flex box*/
+main .mid1 .icons .event{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 90px;
+    height: auto;
+    align-items: center;
+    margin-left: 4px;
+    padding: 12px;
+    cursor: pointer;
+    
+}
+/* mid1 event  hover*/
+main .mid1 .icons .event:hover{
+    background-color: gainsboro;
+    border-radius: 4px;
+    width: 90px;
+    height: auto;
+    align-items: center;
+    margin-left: 4px;
+    padding: 12px;
+    cursor: pointer;
+    
+}
+/* mid1 collender*/
+main .mid1 .icons .collender{
+    display: flex;
+}
+/* mid1 collender h6*/
+main .mid1 .icons .collender h6{
+    margin-left:5px;
+    display: flex;
+}
+/* mid1 collender flex box*/
+main .mid1 .icons .collender{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 99px;
+    height: auto;
+    align-items: center;
+    margin-left: 3px;
+    padding: 12px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+/* mid1  collender hover*/
+main .mid1 .icons .collender:hover{
+    background-color: gainsboro;
+    border-radius: 3px;
+    width: 99px;
+    height: auto;
+    align-items: center;
+    margin-left: 4px;
+    padding: 12px;
+    cursor: pointer;
+    
+}
+/* ended mid1 css property */
+
+
+/* mid2 start here */
+.mid2{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    height: 470px;
+    width: 500px;
+    margin-top: 1px;
+}
+/* mid2 header */
+main .header1{
+    margin-top:2rem;
+    gap: 1rem;
+    display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
+    align-content: center;
+}
+/* mid2 image */
+main .mid2 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 6px;
+    display: flex;
+}
+/* mid2 advertisement image */
+main .mid2 .advertisement img{
+    width: 500px;
+    height: 300px;
+    margin-top: 1rem;
+}
+/* mid2 h5 */
+main .mid2 .header1 .details h5{
+    margin-top: 10px;
+    font-size: 15px;
+}
+/* mid2 paragraph */
+main .mid2 .header1 .details p{
+    margin-top: 10px;
+    font-size: 13px;
+    margin-left: 2px;
+    display: grid;
+}
+/* mid2 dots icons flex box */
+main .mid2 .dots i{
+    font-size: 16px;
+    background-color: #fff;
+    padding: 16px;
+    margin-left: 14rem;
+    margin-top: 8px;
+    border-radius: 50%;
+}
+/* mid2 icons hover */
+main .mid2 .dots i:hover{
+    font-size: 16px;
+    background-color:gainsboro;
+    padding: 16px;
+    margin-left: 14rem;
+    margin-top: 8px;
+    border-radius: 50%;
+}
+/* mid2 small */
+main .mid2 .small{
+    display: flex;
+}
+/* mid2 image */
+main.like img{
+    font-size:5px;
+}
+/* mid2 other */
+main .mid2 .other{
+    display: flex;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+
+}
+/* mid2 thumb */
+main .mid2 .other .thumb{
+    border-radius: 5px;
+    width: 90px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 2px;
+    cursor: pointer;
+    display: flex;   
+}
+/* mid2 thumb hover */
+main .mid2 .other .thumb:hover{
+background-color: gainsboro;
+border-radius: 5px;
+width: 90px;
+height: auto;
+align-items: center;
+margin-left: 2px;
+padding: 2px;
+cursor: pointer;
+display: flex;
+}
+/* mid2 thumb h6 */
+main .mid2 .other .thumb h6{
+    text-align: center;
+    display: flex;
+    margin-top: 8px;
+    margin-left: 0px;
+}
+/* mid2 comment */
+main .mid2 .other .comment{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 2px;
+    cursor: pointer;
+    display: flex; 
+    border-radius: 5px;
+}
+/* mid2 comment hover */
+main .mid2 .other .comment:hover{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 2px;
+    cursor: pointer;
+    display: flex; 
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+/* mid2 comment h6 */
+main .mid2 .other .comment h6{
+     margin-top: 10px;
+     margin-left: 2px;
+     text-align: center;
+}
+/* mid2 share */
+main .mid2 .other .share{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 2px;
+    cursor: pointer;
+    display: flex; 
+    border-radius: 5px;
+}
+/* mid2 share hover */
+main .mid2 .other .share:hover{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 2px;
+    cursor: pointer;
+    display: flex; 
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+/* mid2 share h6 */
+main .mid2 .other .share h6{
+    margin-top: 11px;
+    text-align: center;
+    margin-left: 6px;
+}
+/* mid2 send */
+main .mid2 .other .send{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 2px;
+    cursor: pointer;
+    display: flex; 
+    border-radius: 5px; 
+}
+/* mid2 send hover */
+main .mid2 .other .send:hover{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 2px;
+    cursor: pointer;
+    display: flex; 
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+/* mid2 send h6 */
+main .mid2 .other .send h6{
+    margin-top: 14px;
+    align-items: center;
+}
+/* mid2 small h6 */
+main .mid2 .small h6{
+    margin-top: 9px;
+    margin-left: 9px;
+}
+/* =============mid2 ended here */
+
+/* mid3 start from here */
+
+/* mid3 flex container */
+.mid3{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    width: 500px;
+    margin-top: 2rem;
+}
+/* mid3 image */
+main .mid3 .image img{
+    width: 60px;
+    height: 60px;
+}
+/* mid3 lord image */
+main .mid3 .lord img{
+      width: 500px;
+      height: 400px;
+}
+/* mid3 other1 */
+main .mid3 .other1{
+    display: flex;
+}
+/* mid3 other1 ancar */
+main .mid3 .other1 a{
+    text-decoration: none;
+    color: black;
+}
+/* mid3 other1 ancar hover */
+main .mid3 .other1 a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+/* mid3 other1 details1 */
+main .mid3 .other1 .details1{
+    margin-top: 12px;
+}
+/* mid3 other1 some */
+main .mid3 .some .lord img{
+    margin-top: 2px;
+}
+/* mid3 dots1 image */
+main .mid3 .other1 .dots1 img{
+    margin-left: 13rem;
+}
+/* mid3 dots1 image */
+main .mid3 .other1 .dots1 img{
+    background-color: #fff;
+    padding: 4px;
+    margin-left: 15rem;
+    margin-top: 6px;
+    border-radius: 50%;
+}
+/* mid3 dots1 image hover */
+main .mid3 .other1 .dots1 img:hover{
+    background-color:gainsboro;
+    padding: 4px;
+    margin-left: 15rem;
+    margin-top: 6px;
+    border-radius: 50%;
+}
+/* mid3 details2 */
+main .mid3 .some .details2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/* mid3 details2  link2*/
+main .mid3 .some .details2 .link2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 7px;
+    margin-bottom: 7px;
+}
+/* mid3 details2 link3*/
+main .mid3 .some .details2 .link3{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7px;
+    margin-bottom: 7px;
+
+}  
+/* mid3 details2 ancar */
+main .mid3 .some .details2 a{
+     text-decoration: none;
+     color: black;
+     margin-left: 4px;
+     margin-top: 3px;
+}
+/* mid3 details2  ancar hover*/
+main .mid3 .some .details2 a:hover{
+    text-decoration:underline;
+    color: blue;
+}
+/* mid3 details3 */
+main .mid3 .some .details3{
+    display: flex;
+    gap: 4rem;
+    margin-left: 1rem;
+    margin-right:1rem;
+    margin-top: 4px;
+}
+/* mid3 details3 pic1 */
+main .mid3 .some .details3 .pic1{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 8px;
+    cursor: pointer;
+    display: flex; 
+    border-radius: 5px; 
+}
+/* mid3 details3 pic1 hover */
+main .mid3 .some .details3 .pic1:hover{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 8px;
+    cursor: pointer;
+    display: flex; 
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+/* mid3 details3 pic2 */
+main .mid3 .some .details3 .pic2{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 8px;
+    cursor: pointer;
+    display: flex; 
+    border-radius: 5px; 
+}
+/* mid3 details3 pic2 hover */
+main .mid3 .some .details3 .pic2:hover{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 8px;
+    cursor: pointer;
+    display: flex; 
+    border-radius: 5px; 
+    background-color: gainsboro;
+}
+/* mid3 pic3 */
+main .mid3 .some .details3 .pic3{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 8px;
+    cursor: pointer;
+    display: flex; 
+    border-radius: 5px; 
+   
+}
+/* mid3 pic3  hover*/
+main .mid3 .some .details3 .pic3:hover{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 8px;
+    cursor: pointer;
+    display: flex; 
+    border-radius: 5px; 
+    background-color: gainsboro;
+}
+/* mid3 pic4 */
+main .mid3 .some .details3 .pic4{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 8px;
+    cursor: pointer;
+    display: flex; 
+    border-radius: 5px; 
+}
+/* mid3 pic4 hover */
+main .mid3 .some .details3 .pic4:hover{
+    width: 105px;
+    height: auto;
+    align-items: center;
+    margin-left: 2px;
+    padding: 8px;
+    cursor: pointer;
+    display: flex; 
+    border-radius: 5px;
+    background-color: gainsboro; 
+}
+
+/* mid3 ended here */
+
+/* right side container */
+form .right_box1{
+    background-color:white;
+    border-radius:0.8rem;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    width: 320px;
+    display: flex;
+    
+}
+/* right_box1 details4 */
+form .right_box1 .box1 .details4{
+    display: flex;
+    justify-content: space-between;
+}
+/* right_box1 details4 hover*/
+ form .right_box1 .box1 .details4:hover{
+    display: flex;
+    justify-content: space-between;
+
+}
+/* right_box1 details4 h6 */
+form .right_box1 .box1 .details4 h6{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+/* right_box1 details4 image */
+form .right_box1 .box1 .details4 img{
+    margin-top: 11px;
+    margin-left: 1rem;
+}
+/* right_box1 details4 list*/
+form .right_box1 .box1 .list{
+   margin-top: 1rem;
+   margin-left: 1rem;
+}
+/* right_box1 details4 space1*/
+form .right_box1 .box1 .list .space1{
+    background-color: #fff;
+    width: auto;
+    height: auto;
+}
+/* right_box1 details4 space1 hover*/
+form .right_box1 .box1 .list .space1 .details5:hover{
+    background-color:gainsboro;
+    width:100%;
+    height: auto;
+}
+/* right_box1 details5 dots3 paragraph */
+form .right_box1 .box1 .list .details5 .dots3 p{
+    font-size: 13px;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 22px;
+}
+/* right_box1 details5 dots3 */
+form .right_box1 .box1 .list .details5 .dots3{
+    display: flex;
+}
+/* right_box1 details5 ul li */
+ form .right_box1 .box1 .list .details5 ul li{
+    margin-top: 0rem;
+    margin-left: 18px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+/* right_box1 details6 */
+form .right_box1 .box1 .list .details6{
+    margin-top: 1rem;
+}
+/* right_box1 details6 hover */
+form .right_box1 .box1 .list .details6:hover{
+   background-color: gainsboro;
+}
+/* right_box1 details6 dots4*/
+form .right_box1 .box1 .list .details6 .dots4{
+    display: flex;
+}
+/* right_box1 details6  ul li*/
+form .right_box1 .box1 .list .details6 ul li{
+    margin-top: 0rem;
+    margin-left: 18px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+/* right_box1 details6  dots4 paragraph*/
+form .right_box1 .box1 .list .details6 .dots4 p{
+    font-size: 13px;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 22px;
+}
+/* right_box1 details7 */
+form .right_box1 .box1 .list .details7{
+    margin-top: 1rem;
+}
+/* right_box1 details7 hover */
+form .right_box1 .box1 .list .details7:hover{
+    background-color: gainsboro;
+}
+/* right_box1 details7 dots5 paragraph*/
+form .right_box1 .box1 .list .details7 .dots5 p{
+    font-size: 13px;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 22px;
+}
+/* right_box1 details7 dots5*/
+form .right_box1 .box1 .list .details7 .dots5{
+    display: flex;
+}
+/* right_box1 details7 dots5 ul li*/
+form .right_box1 .box1 .list .details7 ul li{
+    margin-top: 0rem;
+    margin-left: 18px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+/* right_box1 details8*/
+form .right_box1 .box1 .list .details8{
+    margin-top: 1rem;
+}
+/* right_box1 details8 hover*/
+form .right_box1 .box1 .list .details8:hover{
+   background-color: gainsboro;
+}
+/* right_box1 details8 dots6 paragraph*/
+form .right_box1 .box1 .list .details8 .dots6 p{
+    font-size: 13px;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 22px;
+}
+/* right_box1 details8 dots6*/
+form .right_box1 .box1 .list .details8 .dots6{
+    display: flex;
+}
+/* right_box1 details8 ul li*/
+form .right_box1 .box1 .list .details8 ul li{
+    margin-top: 0rem;
+    margin-left: 18px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+/* right_box1 details8*/
+form .right_box1 .box1 .list .details8{
+    margin-top: 1rem;
+}
+/* right_box1 details8 dots6*/
+form .right_box1 .box1 .list .details8 .dots6 p{
+    font-size: 13px;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 22px;
+}
+/* right_box1 details8 dots6*/
+form .right_box1 .box1 .list .details8 .dots6{
+    display: flex;
+}
+/* right_box1 details9*/
+form .right_box1 .box1 .list .details9{
+    margin-top: 1rem;
+}
+/* right_box1 details9*/
+form .right_box1 .box1 .list .details9:hover{
+    background-color: gainsboro;
+}
+/* right_box1 details9 dots7 paragraph*/
+form .right_box1 .box1 .list .details9 .dots7 p{
+    font-size: 13px;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 22px;
+}
+/* right_box1 details9 dots7*/
+form .right_box1 .box1 .list .details9 .dots7{
+    display: flex;
+}
+/* right_box1 details9 dots7 ul li*/
+form .right_box1 .box1 .list .details9 ul li{
+    margin-top: 0rem;
+    margin-left: 18px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* right box1 ended here */
+
+/* right box2 start here */
+form .right_box2{
+    background-color:white;
+    border-radius:0.8rem;
+    height: 200px;
+    width: 320px;
+    display: grid;
+    margin-top: 1rem;
+    
+}
+form .right_box2 .box2 .details10{
+    display: flex ;
+    margin-top: 19px;
+    margin-left: 5px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+/* right_box1 details10 hover*/
+form .right_box1 .box1 .list .details10:hover{
+   background-color: gainsboro;
+}
+form .right_box2 .box2 .details10 img{
+    display: flex ;
+    margin-top: 0px;
+    margin-right: 8px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+form .right_box2 .box2 .details10 h6{
+    margin-top: 6px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+form .right_box2 .box2 li{
+   display: flex;
+   margin-left: 9px;
+   font-size: 19px;
+   margin-top: 2rem;
+}
+form .right_box2 .box2  .details11{
+    margin-left: 1rem;
+}
+/* right_box1 details11*/
+form .right_box1 .box1 .list .details11:hover{
+    margin-top: 1rem;
+}
+form .right_box2 .box2  .details11 li{
+    margin-left: 1rem;
+    font-size: 15px;
+    margin-top: 12px;
+}
+form .right_box2 .box2  .details11 .dots8{
+   display: flex;
+
+}
+form .right_box2 .box2 .details11 .dots8 p{
+    font-size: 13px;
+    display: flex;
+    margin-left: 19px;
+}
+form .right_box2 .box2 .details11 .dots8 ul li{
+    margin-top: 0rem;
+    margin-left: 9px;
+    font-size: 12px;
+}
+form .right_box2 .box2 .details12{
+    margin-left: 1rem;
+}
+
+form .right_box2 .box2 .details12 li{
+    font-size: 15px;
+    margin-left: 1rem;
+    margin-top: 12px;
+}
+form .right_box2 .box2 .details12 p{
+    font-size: 12px;
+    display: flex;
+    margin-left: 19px;
+}
+form .right_box2 .box2 .details12 .dots9{
+    display: flex;
+}
+form .right_box2 .box2 .details12 ul li{
+    margin-top: 0rem;
+    margin-left: 9px;
+    font-size: 12px;
+}
+/* right_box2 ended here */
+
+/* right_box3 start here */
+form .right_box3{
+    background-color:white;
+    border-radius:0.8rem;
+    height: 400px;
+    width: 320px;
+    display: grid;
+    margin-top: 1rem;
+}
+form .right_box3 .box3 .details13{
+    display: flex ;
+    margin-top: 19px;
+    margin-left: 5px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+form .right_box3 .box3 .details13 img{
+    display: flex ;
+    margin-top: 0px;
+    margin-right: 8px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+form .right_box3 .box3 .details13 h6{
+    margin-top: 6px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+form .right_box3 .box3 .details14{
+    display: flex;
+}
+form .right_box3 .box3 .details14 h6{
+    font-size: 12px;
+    margin-top: 28px;
+    font-size: 16;
+}
+form .right_box3 .box3 .details14 img{
+    margin-top: 1rem;
+}
+form .right_box3 .box3 .details14 .dots10 a{
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+form .right_box3 .box3 .details14 .dots10 a:hover{
+    color: red;
+}
+form .right_box3 .box3 .details14 .dots10 .button{
+    margin-top: 8px;
+}
+form .right_box3 .box3 .details14 .dots10 .button button:hover{
+   background-color: aqua;
+   padding: 4px;
+}
+
+form .right_box3 .box3 .details14{
+    display: flex;
+}
+form .right_box3 .box3 .details14 h6{
+    font-size: 12px;
+    margin-top: 28px;
+    font-size: 16;
+}
+form .right_box3 .box3 .details14 img{
+    margin-top: 1rem;
+}
+form .right_box3 .box3 .details14 .dots10 a{
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+form .right_box3 .box3 .details14 .dots10 a:hover{
+    color: red;
+}
+form .right_box3 .box3 .details14 .dots10 .button{
+    margin-top: 8px;
+}
+form .right_box3 .box3 .details14 .dots10 .button button:hover{
+   background-color: aqua;
+   padding: 4px;
+}
+form .right_box3 .box3 .details14{
+    display: flex;
+}
+form .right_box3 .box3 .details14 h6{
+    font-size: 12px;
+    margin-top: 28px;
+    font-size: 16;
+}
+form .right_box3 .box3 .details14 img{
+    margin-top: 1rem;
+}
+form .right_box3 .box3 .details14 .dots10 a{
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+form .right_box3 .box3 .details14 .dots10 a:hover{
+    color: red;
+}
+form .right_box3 .box3 .details14 .dots10 .button{
+    margin-top: 8px;
+}
+form .right_box3 .box3 .details14 .dots10 .button button:hover{
+   background-color: aqua;
+   padding: 4px;
+}
+form .right_box3 .box3 .details14{
+    display: flex;
+}
+form .right_box3 .box3 .details14 h6{
+    font-size: 12px;
+    margin-top: 28px;
+    font-size: 16;
+}
+form .right_box3 .box3 .details14 img{
+    margin-top: 1rem;
+    margin-left: 8px;
+}
+form .right_box3 .box3 .details14 .dots10 a{
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+form .right_box3 .box3 .details14 .dots10 a:hover{
+    color: red;
+}
+form .right_box3 .box3 .details14 .dots10 .button{
+    margin-top: 8px;
+}
+form .right_box3 .box3 .details14 .dots10 .button button:hover{
+   background-color: aqua;
+   padding: 4px;
+}
+
+
+form .right_box3 .box3 .details15{
+    display: flex;
+}
+form .right_box3 .box3 .details15 h6{
+    font-size: 12px;
+    margin-top: 28px;
+    font-size: 16;
+    margin-left: 1rem;
+}
+form .right_box3 .box3 .details15 img{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+form .right_box3 .box3 .details15 .dots11 a{
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 1rem;
+    
+}
+form .right_box3 .box3 .details15 .dots11 a:hover{
+    color: red;
+    
+}
+form .right_box3 .box3 .details15 .dots11 .button button:hover{
+    background-color: aqua;
+    
+}
+form .right_box3 .box3 .details15 .dots11 .button{
+    margin-left: 9px;
+}
+
+form .right_box3 .box3 .details16 .dots12 a:hover{
+    color: red;
+}
+form .right_box3 .box3 .details16 .dots12 .button{
+    margin-top: 8px;
+
+   
+}
+form .right_box3 .box3 .details16 .dots16 .button button:hover{
+   background-color: aqua;
+   padding: 4px;
+}
+form .right_box3 .box3 .details16{
+    display: flex;
+}
+form .right_box3 .box3 .details16 h6{
+    font-size: 12px;
+    margin-top: 28px;
+    font-size: 16;
+    margin-left: 1rem;
+}
+form .right_box3 .box3 .details16 img{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+form .right_box3 .box3 .details16 .dots12 a{
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 1rem;
+    
+}
+form .right_box3 .box3 .details16 .dots12 a:hover{
+    color: red;
+}
+form .right_box3 .box3 .details16 .dots12 .button{
+    margin-top: 8px;
+    margin-left: 9px;
+   
+}
+form .right_box3 .box3 .details16 .dots12 .button button:hover{
+   background-color: aqua;
+   padding: 4px;
+}
+/* right_box3 ended here */
+
+/* completed our linkdin static assignment */
+
+
+
+
